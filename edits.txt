@@ -1,4 +1,7 @@
 working, SHOW ALL, EDIT CURRENT, DELETE
 - not working as intended
     - NEW
+    - EDIT
         a. appears to be useEffect, tracking userinput
+
+- POSSIBLE FIXES? check components

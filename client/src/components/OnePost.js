@@ -16,7 +16,8 @@ const OnePost = () => {
     // const history = useHistory();
     const navigate = useNavigate();
     // instead of useHistory.push('/')
-    navigate('/');
+    // must use the following inside a useffect thing
+    // navigate('/');
 
 
     useEffect(() => {

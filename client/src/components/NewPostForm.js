@@ -17,8 +17,10 @@ const NewPostForm = (props) => {
     // const history = useNavigate();
     const navigate = useNavigate();
 
+    // must be inside of the axios or use effect, I had this uncommented
+    // and it would not let me create a new one
     // instead of useHistory.push('/')
-    navigate('/');
+    // navigate('/');
 
     // submithandler
     const addPost = (e) => {
