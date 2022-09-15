@@ -1,0 +1,35 @@
+-- intro about me --
+Hello, my name is Daniel Martinez Paiz
+
+I am career changing from home-remodeling to software engineering
+    - I enjoy tech a lot and have been curious about how it may be used and improved.
+        - self-studying over time has helped in seeing the different roles to consider.
+        - the self studying has helped see the different ways to set up a environment,
+        - file structure and size of a project. 
+        
+    Which is important to me since I enjoy knowing how things operate, what goes on behind the scenes.
+
+
+-- walkthrough of my project --
+My site's purpose is to become a reference guide for setting up my environment.
+
+    I am translating my notes and possibly creating categories for them via database such as back-end, front-end.
+    Because to me, when studying full stack, we are blending the roles often and that may block us from seeing where we want to focus in building towards as an expert.
+         
+There are create, read, update, destroy functionality for my posts.
+
+    I have reusable components for [rendering all posts, form for editing, form for adding, viewing one post]. 
+
+I enjoy modularizing my file structure because it helps with seeing the data flow and it helps in debugging by having the size of our files be smaller.
+
+Typically I set up my back-end to where I can connect to my cloud database, and test my queries with Postman and can proceed in connecting through the front-end.
+
+From there, I begin my adding boot strap inline css/js.
+
+- Start with serving all the data in the database for the home page. Practicing making requests and viewing through the console.
+
+- Utilizing axios first to receive all of the data.
+    - To then using .map() on every document in my database
+    
+Once I am able to view it all through the console, I can begin to add html for the different operations I want to be able to do as a user, and having the component return the data within a table.
+
