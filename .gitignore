@@ -1,6 +1,6 @@
 .env
 node_modules
-demo.txt
-edits.txt
-modular-notes.txt
-server-notes.txt
+demo
+edits
+modular-notes
+server-notes
